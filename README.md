@@ -2,6 +2,6 @@
 Taut is possibly the best application never created.
 
 ## Admire its creation
-Taut was at first an ugly baby at birth.
+At birth, Taut was an ugly baby.
 
 ![1](/img/1.gif)
