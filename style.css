@@ -3,10 +3,80 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.upper {
+  background-image: url("img/background.jpg");
+  background-size: cover;
+  height: 100vh;
+  padding: 3vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+div.nav-links > li a {
+  padding: 3vh;
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 footer {
   font-size: 0.75rem;
+}
+
+.lower {
+  padding: 3vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.contacts {
+  padding: 3vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #E7E7E9;
 }
