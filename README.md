@@ -9,3 +9,11 @@ At birth, Crack (initially named Taut) was an ugly baby.
 With help from Flexbox, Crack passed through puberty with moderate success.
 
 ![2](/img/2.png)
+
+After rounds of CSS makeovers, Crack's full screen site became a BEAUTY.
+
+![3](/img/3.gif)
+
+However, Crack looked like it was on crack when the window gets too small.
+
+![4](/img/4.png)

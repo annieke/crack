@@ -1,3 +1,5 @@
+/* Colors and styling modeled after official Slack site CSS */
+
 html {
   font-size: 16px;
   box-sizing: border-box;
@@ -5,6 +7,7 @@ html {
 
 body {
   font-family: 'Lato', sans-serif;
+  font-weight: 900;
   margin: 0;
   padding: 0;
 }
@@ -19,13 +22,19 @@ ul {
   padding: 0;
 }
 
-a {
+a, a:hover, a:link, a:visited {
+  color: #2c2d30;
   text-decoration: none;
 }
 
 .main {
   display: flex;
   flex-direction: column;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 900;
 }
 
 .upper {
@@ -43,6 +52,7 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav-links {
@@ -52,7 +62,25 @@ a {
 }
 
 div.nav-links > li a {
-  padding: 3vh;
+  border-radius: 4px;
+  margin: 10px;
+  padding: 6px;
+  color: #39464f;
+}
+
+div.nav-links > li a:hover {
+  background-color: rgba(250,250,250,0.3);
+}
+
+#signin {
+  border-style: solid;
+  border-width: 2px;
+  padding: 9px;
+}
+
+#signin:hover {
+  background-color: transparent;
+  color: #000;
 }
 
 .content {
@@ -61,17 +89,31 @@ div.nav-links > li a {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  padding-left: 10vh;
 }
 
-/* some styles esp sizes are modeled after the css sheet on Slack's site */
 .headline {
   font-weight: 900;
   font-size: 96px;
   margin-bottom: 0;
+  color: #253039;
+}
+
+#big-ast {
+  color: #e32072;
 }
 
 .subhead {
   font-size: 20px;
+  font-weight: 300;
+  color: #39464f;
+  margin: 1vh;
+}
+
+#small-ast {
+  color: #e32072;
+  font-size: 40px;
+  vertical-align: middle;
 }
 
 .input-group {
@@ -107,6 +149,7 @@ button:hover {
   font-size: 14px;
   color: #70787d;
   margin-top: 1vh;
+  font-weight: 200;
 }
 
 footer {
@@ -118,6 +161,36 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  font-weight: 200;
+}
+
+.lower li {
+  padding: 1.3vh;
+}
+
+.lower li a {
+  color: #9e9ea6;
+}
+
+.footer-title {
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+#title1 {
+  color: #edb431;
+}
+
+#title2 {
+  color: #e32072;
+}
+
+#title3 {
+  color: #2ab27b;
+}
+
+#title4 {
+  color: #4b6bc6;
 }
 
 .contacts {
@@ -125,5 +198,40 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #E7E7E9;
+  align-items: center;
+  background-color: rgba(0,0,0,.05);
+}
+
+#footer-logo {
+  font-size: 28px;
+  margin-left: 0;
+}
+
+.contacts a {
+  font-size: 0.82rem;
+  color: #9e9ea6;
+  margin-left: 1rem;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#twitter {
+  font-size: 20px;
+}
+
+#twitter:hover {
+  color: #00aced;
+}
+
+#youtube {
+  font-size: 20px;
+}
+
+#youtube:hover {
+  color: #bb0000;
 }
