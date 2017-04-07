@@ -35,6 +35,7 @@ a {
   padding: 3vh;
   display: flex;
   flex-direction: column;
+  min-height: 500px;
 }
 
 
@@ -59,7 +60,53 @@ div.nav-links > li a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+}
+
+/* some styles esp sizes are modeled after the css sheet on Slack's site */
+.headline {
+  font-weight: 900;
+  font-size: 96px;
+  margin-bottom: 0;
+}
+
+.subhead {
+  font-size: 20px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: row;
+}
+
+input {
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.3);
+  border: 1px solid #B2B2B3;
+  border-radius: 4px;
+  font-size: 18px;
+  padding: 14px;
+  margin-right: 10px;
+}
+
+button {
+  border-radius: 4px;
+  font-size: 15px;
+  background-color: #42c299;
+  color: #fff;
+  border: 0;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+  transition-duration: 0.3s;
+}
+
+button:hover {
+  background-color: #3dbd94;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
+}
+
+.footnote {
+  font-size: 14px;
+  color: #70787d;
+  margin-top: 1vh;
 }
 
 footer {
