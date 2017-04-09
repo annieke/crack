@@ -44,7 +44,7 @@ a, a:hover, a:link, a:visited {
   padding: 3vh;
   display: flex;
   flex-direction: column;
-  min-height: 500px;
+  min-height: 700px;
 }
 
 
@@ -72,6 +72,10 @@ div.nav-links > li a:hover {
   background-color: rgba(250,250,250,0.3);
 }
 
+.mobile-only {
+  display: none;
+}
+
 #signin {
   border-style: solid;
   border-width: 2px;
@@ -95,7 +99,7 @@ div.nav-links > li a:hover {
 .headline {
   font-weight: 900;
   font-size: 96px;
-  margin-bottom: 0;
+  margin: 0;
   color: #253039;
 }
 
@@ -172,6 +176,10 @@ footer {
   color: #9e9ea6;
 }
 
+.lower li a:hover {
+  color: #39464f;
+}
+
 .footer-title {
   text-transform: uppercase;
   font-size: 11px;
@@ -213,6 +221,12 @@ footer {
   margin-left: 1rem;
 }
 
+.contacts a:hover {
+  font-size: 0.82rem;
+  color: #39464f;
+  margin-left: 1rem;
+}
+
 .contact-links {
   display: flex;
   flex-direction: row;
@@ -238,7 +252,26 @@ footer {
 
 @media only screen and (max-width: 640px) {
   .upper {
-    min-height: 700px;
+    min-height: 650px;
+  }
+
+  .mobile-hide {
+    display: none;
+  }
+
+  .mobile-only {
+    display: inline;
+  }
+
+  #menu {
+    border-style: solid;
+    border-width: 2px;
+    padding: 9px;
+  }
+
+  #menu:hover {
+    background-color: transparent;
+    color: #000;
   }
 
   .content {
@@ -252,6 +285,7 @@ footer {
 
   .headline {
     font-size: 75px;
+    margin-top: auto;
   }
 
   .input-group {
@@ -277,6 +311,7 @@ footer {
 
   .subhead {
     order: 3;
+    font-size: 18px;
   }
 
 }
