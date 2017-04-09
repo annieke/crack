@@ -148,7 +148,7 @@ button:hover {
 .footnote {
   font-size: 14px;
   color: #70787d;
-  margin-top: 1vh;
+  margin-top: 10px;
   font-weight: 200;
 }
 
@@ -234,4 +234,49 @@ footer {
 
 #youtube:hover {
   color: #bb0000;
+}
+
+@media only screen and (max-width: 640px) {
+  .upper {
+    min-height: 700px;
+  }
+
+  .content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0 4vh;
+  }
+
+  .headline {
+    font-size: 75px;
+  }
+
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  input {
+    font-size: 18px;
+    padding: 14px;
+    margin-right: 0px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  button {
+    font-size: 15px;
+    padding: 17px;
+    margin-top: 10px;
+  }
+
+  .subhead {
+    order: 3;
+  }
+
 }
