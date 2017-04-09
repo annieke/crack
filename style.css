@@ -314,4 +314,31 @@ footer {
     font-size: 18px;
   }
 
+  .lower {
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .lower ul {
+    width: 100%;
+    padding: 7px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #d0d0d8;
+  }
+
+  .footer-title {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .plus-sign {
+    color: #d0d0d8;
+    font-size: 20px;
+  }
+
 }
