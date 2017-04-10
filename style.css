@@ -281,6 +281,7 @@ footer {
    position: absolute;
    top: -9999px;
    left: -9999px;
+   display: none;
   }
 
   .hidden-menu {
@@ -407,11 +408,31 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
   }
 
   .plus-sign {
     color: #d0d0d8;
     font-size: 20px;
+  }
+
+  input[type=checkbox] ~ ul {
+    height: 0;
+    overflow: hidden;
+    border: none;
+    padding: 0;
+    display: flex;
+    align-self: flex-end;
+    flex-direction: column;
+  }
+
+  input[type=checkbox]:checked ~ ul {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-self: flex-end;
+    flex-direction: column;
+    border-width: 0;
   }
 
 }
