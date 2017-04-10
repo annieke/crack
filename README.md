@@ -17,3 +17,7 @@ After rounds of CSS makeovers, Crack's full screen site became a BEAUTY.
 However, Crack looked like it was on crack when the window gets too small.
 
 ![4](/img/4.png)
+
+With the help of Flexboxes and hidden display elements, Crack's mobile site can be responsive!
+
+![5](/img/5.gif)
