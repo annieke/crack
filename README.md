@@ -21,3 +21,9 @@ However, Crack looked like it was on crack when the window gets too small.
 With the help of Flexboxes and hidden display elements, Crack's mobile site can be responsive!
 
 ![5](/img/5.gif)
+
+Watch Crack resize!
+
+![6](/img/6.gif)
+
+No menu, no problem. 
